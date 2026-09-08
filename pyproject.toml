@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "nest-asyncio>=1.6.0",
+]
 
 [project.scripts]
 travelbuddy = "travelbuddy:main"
